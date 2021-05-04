@@ -1,0 +1,34 @@
+Database - It is a collection of data stored in a format that can easily be accessed, 
+In order to manage our databases we use a software application called Database Management System.
+Databases are classified into 2 types :- 1. Relational ,in which we store data in tables linked eachother using relationship.
+                                         2. Non Relational i.e NoSQL
+
+Some important learning concept in MYSQL:-
+Retriving data, Inserting data, deleting data, updating data, views, stored procedure & functions, Triggers, Events, Transaction, Designing and securing databse.
+we will write sql quiries in MYSQL Workbench , This is the Graphical tool that we use to connect our database server and manage our database.
+*SQL is not a Case sensitive language.
+
+2 main shortcut keys we often used while executing queries are:-
+Ctrl+Enter = Execute current statement
+Ctrl+Shift+Enter= Execute all or selected portion
+
+Important syntax :-
+
+To create database = Create Database database_name;
+for eg:- Create Database div;
+
+if we want to work under any database that we have created earlier i.e div , then the syntax will be :- USE div; 
+To comment out any line we use -- i.e two minus sign in the starting of any lines.
+
+Basic Structure of Select Statement:- 
+Select * from dept where dept_id =1 orderby first_name desc; -- Here desc is used for descending order.
+
+Syntax for creating table :-
+Create table Table_name(column1 datatype,column2 datatype,column3 datatype,.....);
+eg:- create table dept (first_name varchar(20),dept_id int,sex char(1)); 
+
+Syntax for inserting a row in a table:-
+Insert into table_name(column1,column2,column3,....)values(value1,value2,value3,....);
+eg:- Insert into dept(first_name,dept_id,sex)values('ajit',3,'M');
+
+
