@@ -30,5 +30,3 @@ eg:- create table dept (first_name varchar(20),dept_id int,sex char(1));
 Syntax for inserting a row in a table:-
 Insert into table_name(column1,column2,column3,....)values(value1,value2,value3,....);
 eg:- Insert into dept(first_name,dept_id,sex)values('ajit',3,'M');
-
-
